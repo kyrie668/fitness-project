@@ -13,7 +13,7 @@ const Layout: React.FC = () => {
     <>
       <SiteHeader />
       <div className="flex" style={{ flex: '1 1 auto' }}>
-        <div className="flex  flex-col" style={{ flex: '1 1 auto' }}>
+        <div className="flex  flex-col" style={{ flex: '1 1 auto', width: '100%' }}>
           <div className="min-h-screen">
             <main>{element}</main>
           </div>
